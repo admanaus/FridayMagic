@@ -1,0 +1,204 @@
+body, html {
+    margin:0;
+    height: 100%;
+    width: 100%;
+    padding: 0;
+    font-family: 'Righteous', cursive;
+}
+
+body {
+    /*display: flex;*/
+    /*flex-direction: column;*/
+}
+
+h1 {
+    color: #fd5f00;
+    padding-top: 20px;
+
+}
+
+h2{
+    padding-top: 50px;
+    color: #fd5f00;
+}
+
+a {
+    color: #000;
+}
+
+.whiteBar{
+    background-color: white;
+    padding-top: 80px;
+}
+
+.banner p {
+    color: black;
+}
+
+
+.mainContainer{
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+
+.mainBody{
+
+}
+
+.material-icons {
+    font-size: 100px;
+    padding-top: 50px;
+
+}
+
+
+.rowCenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.rowColumn {
+    padding: 20px;
+    text-align: center;
+    flex-grow: 1;
+}
+
+.topMenu{
+    position: fixed;
+    color: black;
+    text-decoration: none;
+    height: 40px;
+    text-align: right;
+    width: 80%;
+
+}
+
+a{
+    text-decoration: none;
+    color: #fd5f00;
+    display: inline-block;
+
+}
+
+.menuItem{
+    padding: 10px;
+    /*border-radius: 8px;*/
+    transition: .3s;
+    background-color: white;
+    color: #fd5f00;
+
+}
+
+.menuItem:hover{
+    /*background-color: darkgrey;*/
+    color: #498fff;
+    border-left: thick solid #fd5f00;
+    border-right: thick solid #fd5f00;
+
+}
+
+.banner{
+
+    background-image: url("images/hydra.jpg");
+    background-size: auto;
+    /*z-index: 10;*/
+
+    height: 250px;
+
+    padding: 5%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.banner p {
+    color: white;
+}
+
+.greyBackground{
+    background-color: white;
+}
+
+.whiteBackground{
+    background-color: white;
+}
+
+
+.about{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#exposure h4{
+    padding-bottom: 20px;
+
+
+}
+#exposure div{
+    align-items: center;
+
+}
+
+.orangeIcon{
+    color: #fd5f00;
+}
+#portfolio{
+
+}
+
+.contact{
+
+}
+
+.contactForm{
+    flex-grow: 2;
+
+}
+
+.contactInfo{
+    align-items: flex-start;
+    padding-top: 10px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+textarea {
+    width: 90%;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+
+
+@keyframes navBarHover {
+    from {background-color: transparent}
+    to {background-color: black; color: white; text-decoration: underline}
+
+}
+
+
