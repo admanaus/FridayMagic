@@ -103,15 +103,12 @@ a{
 
 .banner{
 
-    background-image: url("images/hydra.jpg");
-    background-size:     cover;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;              /* optional, center the image */
+    background-image: url("images/manaFeathers.jpg");
+    /*min-width: 100%;*/
+    /*max-width: 30%;*/
 
 
-    /*z-index: 10;*/
-
-    height: 250px;
+    height: 300px;
 
     padding: 5%;
     background-attachment: fixed;
@@ -121,7 +118,7 @@ a{
 }
 
 .banner p {
-    color: white;
+    color: black;
 }
 
 .greyBackground{
